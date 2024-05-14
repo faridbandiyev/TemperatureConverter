@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            repeat:
+        repeat:
             Console.WriteLine("Type the temperature (in celcius): ");
             string inputCelcius = Console.ReadLine();
             int celcius;
@@ -19,4 +19,5 @@
             }
             goto repeat;
         }
+    }
 }
