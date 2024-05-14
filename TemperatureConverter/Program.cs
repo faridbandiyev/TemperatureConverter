@@ -7,7 +7,7 @@
         repeat:
             Console.WriteLine("Type the temperature (in celcius): ");
             string inputCelcius = Console.ReadLine();
-            int celcius;
+            int celcius = 0;
             if (int.TryParse(inputCelcius, out celcius))
             {
                 Console.WriteLine($"Fahrenheit: {celcius * 1.8f + 32}");
