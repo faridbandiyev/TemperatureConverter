@@ -10,7 +10,7 @@
             int celcius;
             if (int.TryParse(inputCelcius, out celcius))
             {
-                Console.WriteLine($"Fahrenheit: {celcius * 1.8f + 32}");
+                Console.WriteLine("Fahrenheit:" + (celcius * 1.8f + 32));
             }
 
             else
