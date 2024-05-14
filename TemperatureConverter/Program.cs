@@ -11,5 +11,10 @@
             {
                 Console.WriteLine($"Fahrenheit: {celcius * 1.8f + 32}");
             }
-    }
+
+            else
+            {
+                Console.WriteLine("Error!");
+            }
+        }
 }
